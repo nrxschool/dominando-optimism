@@ -1,0 +1,45 @@
+# AULA 2
+
+Já que a gente aprendeu alguns conceitos principais do que é rollup, agora a gente vai começar a desenvolver e a fazer o nosso rollup utilizando a própria documentação da Optimism. Então, o que que eu vou fazer? Eu vou pegar lá, Eu vou lá no site da Optimism, na parte na seção de Documentation e vou fazer o passo a passo que eles estão mencionando lá de como a gente pode criar o nosso rollup, tá?
+
+Então vão aqui pra tela. Pessoal, então agora foi conseguimos tá voltando aqui à nossa tela. Eu tive que colocar um pouquinho mais de  Ethereum pra que a gente pudesse rodar todos os os nossos scripts. Então você pode ver que no final eu acho também que peguei um pico de gas de aumento de gas na testnet da Sepolia, tá? Acabei gastando mais do que eu tava pensando, gastando entre aspas porque eu usei faucets e não estou usando tokens de verdade. Mas conseguimos, tá? Então vamos avançar.
+
+Pra gente ver, o último comando que a gente rodou foi esse Forge Script, tá, que é justamente esse aqui. Agora a gente pode criar e gerar esse comando generate contract artifacts, tá? Eu vou dar um control C que eu vou dar um clear e vou colar o comando tá? Colei e apertei o enter e agora eu vou começar a compilar os contratos inteligentes para gerar esses artifacts.
+
+Tá? Prontinho! E rodamos aqui, pois o nosso comando, tal script ran sucessfully! Conectado a esse chain id. Ele deu um pequeno erro aqui de tx not found. Mas enfim, vamos prosseguir. Então vamos seguir aqui com o nosso generate l2 config files eu vou rodar e vou entrar dentro dessa dessa pasta que op-node eu vou voltar, voltei e voltei. Opa! Dentro de Optimism, cd Optimism e op-node certo? Agora eu vou gerar o arquivo Genesis e Rollup.json dentro da pasta op-node. Vou copiar.
+
+Eu nem vou mais trazer o vídeo que a gente estava vendo, porque depois eu fui dar uma olhada e realmente mudou muita coisa e nem compensa mais a gente assistir aquele vídeo. Mas a ideia principal é que vocês entendam o que a gente está seguindo, que foi justamente o que trouxe aquele profissional lá. No ETH Lisboa, tá? Então rodamos o comando, geramos o genesis and rollup .json.
+
+Então já conseguimos. Agora vou criar uma key autenticada. Tá? Então ele vai usar, para a gente usar o nosso web token, a gente vai precisar gerar esse comando aqui, tá? Compensa aqui vocês darem uma lidinha na documentação, mas o que está escrito é que para esse tipo e para a gente usar esse JWT  no cliente de consensos e a gente vai precisar desse JWT, tá?
+
+Normalmente é assim gente, quando a gente faz uma identificação no nosso backend, é muito comum gente usar esse web token também, tá? E aí a gente coloca lá no header para traz as autenticações, né? Porque ninguém quer autenticações que são geradas por qualquer um. A gente quer somente quem pode fazer requisição a quem está identificado. Correto? Deixa eu dar um LS para ver se ele gerou algum tal ou ele gerou o JWT x é JSON TXT.. E agora a gente vai copiar o Genesis e vai colar dentro de op-getth. Tá? E vamos copiar o JWT também e colar dentro de op-geth, certo? Agora a gente vai iniciar o op-geth, certo? Eu vou voltar e vou voltar de novo e vou dar um CD. Então estamos  dentro do op-geth. Como ele está falando aqui.
+
+Vamos criar a pasta datadir. Muito comum, gente, e nesse cliente regras que é feito em cima do Golang. E aí ele por padrão ele coloca esse datadir aqui. Vamos rodar, . vamos fazer o build e iniciar utilizando a esse diretório e o nosso aquivo genesis.json.. Bom, dá uma olhada se genesis.json tá aqui, e está aqui. Vamos dar um clear e vou fazer o build novamente.
+
+Ele vai iniciar o nosso, o nosso cliente, nossa blockchain e agora vamos começar a operar op-geth. Então dentro da pasta op-geth, eu acho que já tá aqui, então precisa dar um cd, tá? Então a gente vai começar a rodar o nosso comando na nossa blockchain, nosso node de blockchain, certo? Ele vai começar a rodar pum!
+
+Vou liberar que a conexão da. Ele me deu um popup ali e eu apertei allow, mas é um comportamento típico do Mac. Não sei como vai ser pra vocês no Linux e no Windows. Provavelmente vai pedir um uso a privilégio pra executar esse comando de qualquer forma, tá? Agora a gente vai abrir um novo shell aqui, tá numa nova aba e vamos lá no OP nodet, tá, vamos daqui, Optimism mais uma vez, aliás.
+
+Opa! E projects, CD optimism. Deixa eu dar um control C que a gente só para ver onde que tá essa pasta que eu me perdi. Ah, tá lá, não tá? Agora vamos lá no op-node e vamos rodar esse mesmo comando ao op-node. Tá me dando algum erro aqui? Prontinho, pessoal. E lembrem se que toda vez que eu na verdade o que aconteceu é que quando eu inicio uma nova taba e eu preciso necessariamente corrigir, tá utilizando esse comando aqui que é o eval, tá?
+
+Que vocês estão vendo aqui na tela. Entre escrever esse comando aqui entre aspas está porque eu preciso carregar as variáveis de ambiente, então por isso que não tinha dado certo. Mas agora né, conseguimos carregar as variáveis ambiente e temos aqui tá dois nodes  aqui funcionando, tá? Então a gente tem op-geth e op-node funcionando, tá, e aí a gente está falando aqui que a gente já vai começar a sincronizar  a layer-2, os blocos da leitura com os blocos da layer-1.
+
+Agora a gente pode começar o nosso ou op-batcher também, tá? Então vamos lá. No novo comando, uma nova aba eu vou abrir aqui eu vou rodar o eval também pelas dúvidas e vou entrar dentro de op-batcher vamos rodar esse comando, certo? Vou dar um allow aqui. Bom, ele vai chegar um momento que ele vai sincronizar, vamos seguir, tá?
+
+E vamos seguir aqui com o start op-proposer. Então vamos novamente abrir um novo shell, uma nova aba.
+
+Certo. E vamos entrar dentro de op-proposer. E vamos mandar esse comando. Tá, tá. Ele me deu um erro aqui. Duas variáveis de ambiente novamente. Tá. Existe uma forma da gente padronizar isso, mas a gente tem que configurar o nosso. Bashprofile. Mas vou manter aqui, senão perco o raciocínio, tá? E aí? Agora vamos iniciar porque a gente carregou a variável de ambiente, então já temos o op-propose..
+
+Agora a gente pode conectar o nosso Meta Mask na porta 8545. Tá, vamo abrir o Meta Mask aqui. Na verdade vou fazer o seguinte, tá? Deixa eu ver se tem aqui o localhost. Hoje eu acho que o hardhat tá no local host. Deixa eu adicionar uma rede aqui pra ver se o se a gente tá usando a porta, o de 8545 é isso mesmo, 8545. É isso mesmo.
+
+Só que tá dando é aqui por causa da ideia da cadeia, tá? E vamos salvar e a gente vai chamar isso aqui de localhost. Salvei. Então a gente já está conseguindo conectar o Meta Mask tá da nossa rollup, tá?
+
+Já avançamos até aqui. Agora a gente pode avançar também pra obter ETH  nessa rede. Então vamos voltar lá pro contracts-bedrock. Nova aba CD contract-bedrock agora que ele não existe? Porque está dentro de package, pronto. E agora vou rodar esse comando aqui que é para obter o endereço da layer 1, standard-bridge. E aí ele já até me esse endereço aqui e ele pede pra enviar alguns sepolias pra esse contrato de bridge, tá?
+
+Vamos lá, vamos ver. Vou enviar um pouquinho aqui para esse contrato, tá na Sepolia.. Vou mandar um pouquinho, um bocadinho para essa conta que eles me deram lá, tá? Vou mandar. Eu sou mão de vaca. Vou mandar só 0,2, tá? Confirmei aí. Agora mandei ETH para esse contrato e aogra usando a wallet eu tenho ETH, envie a para o endereço uma pequena quantidade até entregar 0,1 ao menos. Tá ok. Eu mandei 0,02 ok, isso vai ativar o depósito e vai mintar ETH na minha conta na wallet dois. Olha só que interessante e vai chegar. É mais ou menos cinco minutos. Então vamos lá, vamos ver. Na minha conta então aqui que eu deveria estar recebendo, vai demorar mais ou menos cinco minutos.
+
+Vamos esperar então.
+
+Bom pessoal, então para concluir, a nossa conta aqui já foi mintada, né? Para a conta no local hoje. Então o que aconteceu? Eu fiz uma transferência, tá? Eu mandei um valor em Ethereum para o endereço do meu contrato de cliente e automaticamente esse e esses meus nodes e rodando ele contou e Ethereum para a minha rede layer 2 que eu tenho aqui, entendeu?
+
+Então, o que está acontecendo? Tudo o que o dinheiro que eu envio para uma conta pro endereço do contrato inteligente da sepolia automaticamente está aumentando tokens nativos na minha layer-2. Tá que é que eu chamei? Coloquei em locaalhost no meta metamask na porta 8545. Tá pessoal, é isso, Aprendemos como criar nossas própria layer-2 rollup usando a teste net é bem complexo, tem bastante passos, então é por isso que foi importante. eu seguir cada passo pra você e você também foi consegue entender aquele vídeo inicialmente que a gente estava mostrando do pessoal da ETH Lisboa mostrando o passo a passo. Então agora eu vou assistir em primeiríssima mão o conteúdo atualizado na data de 2024. Mais provavelmente essa documentação vai vai prevalecer por bastante tempo. Tá pessoal, muito obrigado e até a próxima aula.

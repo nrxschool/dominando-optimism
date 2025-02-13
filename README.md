@@ -80,30 +80,30 @@
 ## 🎤 Transcrições das Aulas
 
 ### 📖 MÓDULO 1
-- [Aula 1](https://www.notion.so/Aula-1-1b18d8fde4f941c7ab375aba4ffd489f?pvs=21)
-- [Aula 2](https://www.notion.so/Aula-2-5def2841ffa14e5293a1d861b40c3495?pvs=21)
-- [Aula 3](https://www.notion.so/Aula-3-b769af1eed0e4b039690e41611fd075a?pvs=21)
+- [Aula 1](./mod1/aula1.md)
+- [Aula 2](./mod1/aula2.md)
+- [Aula 3](./mod1/aula3.md)
 
 ### 📖 MÓDULO 2
-- [Aula 1](https://www.notion.so/Aula-1-225bc12d9075430fb4a30945a2746a93?pvs=21)
-- [Aula 2](https://www.notion.so/Aula-2-75da0158dbd24d6a8598ea72310f5cbc?pvs=21)
-- [Aula 3](https://www.notion.so/Aula-3-c0f2e4e8a1984f959bbe2432c3bb3e07?pvs=21)
-- [Aula 4](https://www.notion.so/Aula-4-5b4024e018de4a8e9f46569c5406e638?pvs=21)
+- [Aula 1](./mod2/aula1.md)
+- [Aula 2](./mod2/aula2.md)
+- [Aula 3](./mod2/aula3.md)
+- [Aula 4](./mod2/aula4.md)
 
 ### 📖 MÓDULO 3
-- [Aula 1](https://www.notion.so/Aula-1-2bff884ce5784b8081eec390bfab8772?pvs=21)
-- [Aula 2](https://www.notion.so/Aula-2-9bdecdb99ffd420db3e8a94453f1b6bf?pvs=21)
-- [Aula 3](https://www.notion.so/Aula-3-255349ff1c434484ab53b6368eb7bada?pvs=21)
-- [Aula 4](https://www.notion.so/Aula-4-2cd46720a8bc4aa298ba522b8c069c6c?pvs=21)
+- [Aula 1](./mod3/aula1.md)
+- [Aula 2](./mod3/aula2.md)
+- [Aula 3](./mod3/aula3.md)
+- [Aula 4](./mod3/aula4.md)
 
 ### 📖 MÓDULO 4
-- [Aula 1](https://www.notion.so/Aula-1-79f00aa1c69c4425bb4008b5929ebe7c?pvs=21)
-- [Aula 2](https://www.notion.so/Aula-2-bb781163fbe949d8814d2458585bcfbc?pvs=21)
-- [Aula 3](https://www.notion.so/AULA-3-dc3f17b5059844cf809dd52f17c71865?pvs=21)
+- [Aula 1](./mod4/aula1.md)
+- [Aula 2](./mod4/aula2.md)
+- [Aula 3](./mod4/aula3.md)
 
 ### 📖 MÓDULO 5
-- [Aula 1](https://www.notion.so/AULA-1-9eb91419947a477a87f1b52ea54fbf32?pvs=21)
-- [Aula 2](https://www.notion.so/AULA-2-df0ad4b479ba47639b78576f266d7373?pvs=21)
+- [Aula 1](./mod5/aula1.md)
+- [Aula 2](./mod5/aula2.md)
 
 ---
 

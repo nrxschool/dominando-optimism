@@ -1,0 +1,29 @@
+# Aula 1
+
+Nas aulas anteriores a gente conseguiu configurar e fazer interações com nossos contratos inteligentes. Agora a gente vai lidar com os diferentes tipos de tokens que  gente pode trabalhar com a Optimism e, claro, a gente vai usar a nossa ferramenta, que eu particularmente uso bastante no meu dia a dia, que é a própria OpenZeppelin.
+
+Ela é uma empresa que ela cria, ela criou vários SDK da kits  para desenvolvedores para facilitar desenvolvedores de contratos inteligentes  trabalhar com diferentes soluções customizadas. Então significa que com a OpenZeppelin  a gente tem várias ferramentas que nos auxiliam no desenvolvimento no dia a dia. E nessa aula a gente vai começar a trabalhar com o padrão ERC 20. Vamos pensar aqui o que seria o token ERC 20?
+
+O que vocês conhecem? O que a gente conhece como ERC 20? Eu vou abrir aqui um repositório ou repositório, Não vou abrir aqui um site da Open Zeppelin. Hoje é uma das maiores referências internacionais no que se refere a tokens e ERC-20 e tokens ERC, certo? Para quem não está familiarizado, ERC se significa Ethereum Request for Comment.
+
+Então toda vez que você lembra que é um ERC, é na verdade representa então um conjunto de normas e atividades desenvolvidas para ter um padrão tá que padrão é esse? Bom, são vários tipos de padrões, tá, o primeiro, a primeira padrão é a questão de nome da função, tá? Então é muito importante que a gente entenda o que seria dois nomes das funções.
+
+Tá, eu vou abrir um novo navegador, eu vou voltar aqui no Google para abrir o projeto do GitHub e ERC-20. A gente vai dar uma olhada. Tá? Que que é o é esse ERC-20 São várias coisas e são vários funções diferentes, mas a ideia é criar um padrão, tá? E aí o padrão, essas function names, né. Por exemplo, nem mim essa função retorna name, symbol, decimals, transfer, allowance. Então, todas essas funções tá, são funções padrão do ERC 20. ERC-20 é um token e fungível, é um token que eventualmente pode ser dividido em vários pedacinhos ou também assim como também pode ser transferido para outras carteiras. Então é ERC 20 e tem. É um padrão muito semelhante ao que uma moeda tá, uma moeda padrão.
+
+Então a gente pode transferir, a gente pode comprar, a gente pode fazer ofertas para outras pessoas, transferir de uma carteira para outra. Então o token nada mais é do que uma um padrão de cripto para moedas. Ok, então quando você lê, lembra de ERC 20, lembrem-se de uma moeda? Ok, dito isso, aqui na Documentação do OpenZeppelin, a gente tem algumas configurações número de funções tá, eu recomendo que vocês deem uma olhada como tá sendo descrita que essa documentação.
+
+Mas o importante nesse momento é que a gente possa estender. Tá, eu vou copiar esse aqui. Na verdade eu vou ensinar um outro truque, tá? Olha aqui, eu vou voltar aqui para o home e eu vou dentro disso, eu vou dentro de Contracts e depois em Wizard e aqui tem várias formas da gente criar um token, tá? Eu posso colocar aqui, eu posso pedir pra ele colocar mint make total supply of 10 millions.
+
+Eu posso colocar para ele “Please make this token be called NearX and be used as an erc20 token for an educational platform”.  Vou apertar um desenho aqui para ver o que que ele vai fazer. Ele basicamente está usando aqui o chatGPT, mas vamos lá. Ele criou aqui o token NearX e a sigla NRX.
+
+Tá, ele tem a função de ERC 20, permit, então é assim, eu posso até colocar o mintable aqui, que é como se a gente pudesse criar novos tokens. A gente pode criar novos tokens e eu também posso criar após o deploy desses smart contract, porque toda vez que você vê lê aqui constructor, é como se fosse a primeira função que ele chama tá, é a mãe a função mãe.
+
+Então, quando eu faço deploy, ou seja, quando eu faço a integração, quando eu envio esse contrato inteligente para rede, eu preciso passar os parâmetros e nesse caso ele só está guardando o initial owner. Tá, provavelmente quando eu faço o deploy desse contrato dele, eu preciso passar a quem é a carteira que vai ser o contrato, porque lembre se que eventualmente eu posso estar criando aqui para uma empresa, isso contra uma empresa.
+
+Só que eu não preciso botar minha carteira. Eu posso delegar isso a uma carteira do cliente, tá? Então eu vou voltar aqui no nosso projeto Optimism, tá? Vocês estão vendo aqui o SImple Token, que eu vou criar um novo token chamado ERC20test.sol. Na verdade vou colocar  ERC20simple.sol. Então, como eu estou usando a library do Open Zeppelin, eu consigo fazer essa extensão, tá?
+
+Então eu tô estendendo tudo aquilo que a gente viu lá, daquelas aquelas aquele monte de funções, tá o símbolo, etc. Recomendo que vocês leiam a documentação para entender a função de cada atividade, tá? Mas no mais, é isso. Se a gente ver aqui no terminal, tá? Como vocês estão vendo aquela tela, eu vou digitar aqui  yarn hardhat compile.  Ok, eu vou compilar esse contrato inteligente, vou ver se ele vai passar aqui. Ok, ok, foi e já foi compilado. Se eu vi aqui em artifacts, contracts, ele já me deu aqui o ABI.
+
+E quando a gente lida com toda vez que a gente for fazer uma interação com o contrato inteligente, gente, a gente tem que passar o ABI, tá, que é mais ou menos um manual de instruções sobre o contrato inteligente, ok? Então pessoal, é mais ou menos isso que eu quero passar para vocês nessa aula. Na verdade eu quero fazer uma resumo do que é um ERC-20, tá?
+
+E é. E obviamente você sempre pode criar um novo diferente tipo de token, como o 721 tá que é o NFT. O que a gente conhece, o 1155 que é o multi-token que tem tanto funções do ERC-20 quando do 721. E também tem o ERC4626. Então pessoal, até a próxima aula. Muito obrigado.

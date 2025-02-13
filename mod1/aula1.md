@@ -1,0 +1,45 @@
+# Aula 1
+
+Olá pessoal! Bem vindo a aula de Optimism. Para quem não me conhece, meu nome é Pedro Magalhães, sou desenvolvedor blockchain e venho atuando tanto com blockchain em geral quanto o smart contracts e tanto em projetos nacionais e internacionais. E hoje a ideia é ensinar para vocês sobre a Optimism e o que você vai aprender, O que que, por que a gente está?
+
+Por que eu vou ensinar o que eu vou ensinar para vocês nesse curso? Em primeiro lugar, a opt ins é uma blockchain EVM, que significa EVM, Ethereum Virtual Machine. Qualquer é a idéia. Qual é a diferença da Optimism para outras blockchains? Em primeiro lugar, é importante que você entenda e que a Optimism é uma layer-2  to que significa uma camada dois e uma camada dois da Ethereum.
+
+Por isso que a gente fala que é uma blockchain e EVM, porque ela tem um suporte e ethereum virtual machine. Então agora imagine o seguinte a Optimism ela tem uma solução focada em escalabilidade, segurança e redução do custo de gas. Para que vocês entendam, eu não sei se vocês já tiveram a oportunidade de fazer uma transição, uma transação através da Ethereum.
+
+Quando você faz uma transação, você precisa gastar gás. Você precisa ter Ether na sua conta para você realizar a transação, correto? Então, quando a gente faz o deploy de smart contract, ou seja, quando faço quando eu subo um contrato inteligente para a rede de tiro, naturalmente eu preciso gastar gás, eu preciso consumir. Guess. Então, qual é a diferença?
+
+Qual é o diferencial da Optimism? Ela veio com essa solução de que imagina a seguinte situação: Vamos lá, A gente precisa pagar um pedágio, a hospedagem e o gás. É o éter que a gente vai gastar. Então imagina que a gente está numa rua, numa avenida, tá? E aí, para que faz Rio-São Paulo, por exemplo, Imagine, você está na Dutra.
+
+E aí, se você está na Dutra, você vai pagar um pedágio, certo? Você vai lá pagar seu pedágio, seja um cartão de débito, Enfim, você vai pagar o pedágio e o pedágio. Ele vai ser ele vai ser 10 R$. Colocando exemplo para todos os carros, para caminhões, 23 e assim em diante. Agora imagine que você está num ônibus, você está num ônibus.
+
+Então o que acontece quando você está no ônibus? O custo do pedágio, ele e ele é diluído pela quantidade de passageiros que estão no ônibus. Então fica mais barato para você, certo? Então, se você for viajar de carro, você vai pagar o pedágio quase que sozinho. Agora, se você for de ônibus, esse custo vai ser diluído em todos os passageiros.
+
+É mais ou menos dessa forma que a gente entende o que significa Optimism suas funcionalidades. Então, ao invés de eu trabalhar exclusivamente todo mundo andando de carro, a gente vai falar assim vamos pegar o ônibus. Só que o resultado é o mesmo. Por que eu digo quando a gente está viajando, a gente tem o destino final. Então todo mundo vai para um destino final, certo?
+
+A grande diferença é que a gente está gastando menos dinheiro porque a gente está num ônibus e esse custo é diluído. Então entenda uma das suas funcionalidades, uma das dos seus diferenciais é criar. Esse rollup, é criar e trabalhar em cima de uma segunda camada. Então, quando a gente for, por exemplo, está desenvolvendo um aplicativo e esse aplicativo ele vai para produção.
+
+Então a gente faz todas as transações, a gente realiza todas, todos os movimentos que a gente precisa e somente quando a gente precisa ir para a produção, para Ethereum que a gente, a gente faz essa transação, o que vocês vão aprender, vocês vão aprender principalmente, além dos diferenciais da Optimize, vocês também vão aprender como desenvolver seus aplicativos através da Optimism e construir DAPPs (decentralized applications), aplicações descentralizadas de uma forma muito mais eficiente, muito com alta escalabilidade.
+
+A gente também precisa considerar que Ethereum tem vários por uma escalabilidade para o seu custo. Então, com a Optimism, você vai aprender a desenvolver seus aplicativos com escalabilidade. Você vai aprender a desenvolver seus aplicativos de forma segura e que no final você consiga integrar à Ethereum.  Tudo o que você pode construir. Bom, tem infinidade de soluções que você pode explorar através da Optimism desde desde aplicativos como mensageria.
+
+Você pode criar seu próprio token e trazer transacionar isso através da blockchain. E eu vou contar um caso especial, que é um caso que eu trabalhei que a Optimism iria ajudar bastante. Eu desenvolvi muito recente um jogo e esse jogo será consumido através da blockchain. Agora, se esse jogo que era no caso era um poker, fosse desenvolvido em cima da Ethereum do dia, eu teria vários problemas de escalabilidade porque seria caro.
+
+Imagina toda vez que eu fizer uma requisição para o servidor para blockchain eu teria que consumir um gás. Agora imagina um jogo de poker que existe diversas infinitas interações de usuários e seria muito caro para os usuários e para quem está operando. Então, através da Optimism eu poderia criar uma segunda camada, realizar todas as transações. O meu jogo iria rodar tranquilamente e quando o ganhador ou perdedor do jogo tivesse realizado o seu cash out, iria sacar o dinheiro, ele iria sacar através da Ethereum.
+
+Então esse é só mais um exemplo da utilidade e coisas que vocês vão poder construir através das diferentes tipos de soluções da Optimism. Então agora a gente vai dar uma olhada sobre a introdução. O que seria a blockchain da Optimism. Bom, em primeiro lugar, antes de mais nada, eu acho que é muito importante que todos estejam de acordo sobre a definição do que seria uma blockchain.
+
+Eu sei que muitas pessoas até esse momento já devem saber claramente o que é uma blockchain, mas é importante que eu tenha cria. É importante que eu crie conteúdo para que abranja todas as pessoas. Então, se você quer pular essa parte, introdução, é só adiantar para o próximo capítulo. No mais, vamos deixar tudo alinhado aqui, atendendo a todo o tipo de perfil, tá?
+
+Então, desde o amador até o profissional para quem está começando agora e para quem já tem experiência em trabalhar com blockchain, então cada um tem um nível diferente nesse momento a gente vai fazer um nível um pouco mais introdutório, tá? Então, blockchain, gente, quando vocês pensam em blockchain, é muito importante que vocês pensem numa cadeia de blocos. Imagine um jogo, Imagine um jogo de dominó que você tenha que posicionar as peças e essas peças tem que combinar uma casinha com a outra.
+
+Então é assim que funciona. É mais ou menos assim que funciona a blockchain. Mas você sempre pensa que cada casinha daquela será  dois é igual a três. A gente tem a questão do teste da criptografia, então para casar, pra casar um dominó com o outro, uma peça com outra, você precisa estar de acordo que as duas peças são compatíveis e a blockchain segue esse mesmo princípio. Só que usando criptografia. Então eu acho que tem vários tipos de criptografia. Se você quer ir mais a fundo nessa definição sobre criptografia, tem, aí você vai ter disponível aí conteúdos mais, digamos, específicos para criptografia em geral. Mas cada hoje, cada blockchain tem uma, tem um tipo de criptografia diferente. Enfim, a Ethereum tem, outras EVM têm um tipo, o Bitcoin tem um tipo de criptografia diferente.
+
+Mas no geral são todos de criptografia e são todos criptografia, afinal, até porque a gente conhece com criptomoeda justamente por causa desses algoritmos que se foram criados de uma forma revolucionária utilizando criptografia, ok? Então pessoal, essa é essa definição da blockchain, tá? Então a blockchain. Ela revolucionou o mercado de tecnologia justamente pela pela simplicidade. O que o seu código possui além da escalabilidade, Além de ser realmente algo que se que seja aplicado em casos reais, em usos reais de poder de transações financeiras.
+
+Então a coisa foi muito bem pensada e evoluiu bastante desde o inicio do bitcoin até as outras tecnologias. E tem várias. Tem vários benefícios de uso de blockchain, desde a descentralização, a segurança, a transparência, porque a gente está lidando com algo realmente um algorítimo realmente de criptografia. E esses algoritmos até a data de hoje não são, não são facilmente retirados.
+
+Na verdade, eu diria impossível de você hackear ou de você tentar violar um arquivo criptografado. Então essa é a grande. Esse é um dos grandes benefícios de uso de blockchain. E também tem a questão da descentralização. Aí entra um pouquinho alguns viés do que seria realmente uma blockchain descentralizada, mais centralizada, enfim, tem vários tópicos, discussões sobre essa questão da descentralização.
+
+Mais a blockchain é a a forma que ela foi criada. E foi justamente para ter essa descentralização de tomada de decisões, principalmente se a gente tiver entrando dentro do que seria o consenso e transparência, claro, porque você consegue monitorar todas as transações que tem ali, que está acontecendo em tempo real. Tá, a coisa é muito. Os dados são realmente muito confiáveis.
+
+Então esse é um dos grandes benefícios também é a transparência, porque tudo fica de certa forma sigiloso. Você ao mesmo tempo tem registro e a coisa funciona muito bem.
